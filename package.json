@@ -1,0 +1,23 @@
+{
+  "name": "what-the-flexbox",
+  "version": "1.0.0",
+  "description": "Flexbox course with Wes Bos at https://flexbox.io/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jscott313/what-the-flexbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jscott313/what-the-flexbox/issues"
+  },
+  "homepage": "https://github.com/jscott313/what-the-flexbox#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0"
+  }
+}
