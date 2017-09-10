@@ -5,7 +5,7 @@ const browserSync = require('browser-sync').create();
 const currentFolder = '1. Navbar';
 
 gulp.task('styles', () => {
-  gulp.src(`${currentFolder}/*.css`)
+  return gulp.src(`${currentFolder}/*.css`)
     .pipe(autoprefixer())
     .pipe(gulp.dest(`${currentFolder}/build`))
     .pipe(browserSync.stream());
