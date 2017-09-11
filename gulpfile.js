@@ -2,7 +2,7 @@ const gulp = require('gulp');
 const autoprefixer = require('gulp-autoprefixer');
 const browserSync = require('browser-sync').create();
 
-const currentFolder = '1. Navbar';
+const currentFolder = '2. Reorder on mobile';
 
 gulp.task('styles', () => {
   return gulp.src(`${currentFolder}/*.css`)
